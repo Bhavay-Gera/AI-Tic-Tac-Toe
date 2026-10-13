@@ -57,7 +57,7 @@ AI-Tic-Tac-Toe/
 
 ## Author
 
-Add your name and class details here before submitting.
+Bhavay Gera CU26250011 Roll.no 16.
 
 ## License
 
