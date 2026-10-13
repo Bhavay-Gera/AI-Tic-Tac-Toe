@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <p class="eyebrow">ARTIFICIAL INTELLIGENCE MINI PROJECT</p>
+      <h1>AI Tic-Tac-Toe</h1>
+      <p class="subtitle">Play against a computer that thinks ahead.</p>
+    </header>
+
+    <section class="game-card" aria-label="Tic-Tac-Toe game">
+      <div class="status-row">
+        <span class="player-pill active" id="human-pill">YOU · X</span>
+        <span class="vs">VS</span>
+        <span class="player-pill" id="ai-pill">AI · O</span>
+      </div>
+      <p id="status" class="status" aria-live="polite">Your turn — choose a square.</p>
+      <div id="board" class="board" role="grid" aria-label="Tic-Tac-Toe board">
+        <button class="cell" data-index="0" aria-label="Square 1"></button>
+        <button class="cell" data-index="1" aria-label="Square 2"></button>
+        <button class="cell" data-index="2" aria-label="Square 3"></button>
+        <button class="cell" data-index="3" aria-label="Square 4"></button>
+        <button class="cell" data-index="4" aria-label="Square 5"></button>
+        <button class="cell" data-index="5" aria-label="Square 6"></button>
+        <button class="cell" data-index="6" aria-label="Square 7"></button>
+        <button class="cell" data-index="7" aria-label="Square 8"></button>
+        <button class="cell" data-index="8" aria-label="Square 9"></button>
+      </div>
+      <div class="actions">
+        <button id="restart" class="primary-btn">New Game</button>
+        <button id="reset-score" class="secondary-btn">Reset Score</button>
+      </div>
+      <div class="scoreboard">
+        <div><span class="score-label">YOU</span><strong id="human-score">0</strong></div>
+        <div><span class="score-label">DRAWS</span><strong id="draw-score">0</strong></div>
+        <div><span class="score-label">AI</span><strong id="ai-score">0</strong></div>
+      </div>
+    </section>
+    <footer>
+      <span>Powered by the Minimax algorithm</span>
+      <span>Made for an AI mini project</span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
