@@ -57,7 +57,7 @@ AI-Tic-Tac-Toe/
 
 ## Author
 
-Bhavay Gera CU26250011 Roll.no 16.
+Bhavay Gera CU26250011 Roll.no 16 Btech CSE.
 
 ## License
 
